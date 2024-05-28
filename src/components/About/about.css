@@ -1,0 +1,16 @@
+.aboutUs{
+    padding: 8rem 6rem 3rem 6rem;
+}
+
+.aboutLeft{
+    width: 65%;
+}
+
+.aboutRight{
+    width: 30%;
+    word-break: break-all;
+}
+
+.aboutUs p{
+    color: grey;
+}

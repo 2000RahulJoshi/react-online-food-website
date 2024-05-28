@@ -1,0 +1,16 @@
+.cartItems{
+    padding: 8rem 6rem 3rem 6rem;
+}
+
+.leftDiv{
+    width: 40%;
+}
+
+.rightDiv h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.rightDiv{
+    width: 80%;
+}

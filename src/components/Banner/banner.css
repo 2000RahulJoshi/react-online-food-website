@@ -1,0 +1,13 @@
+.slick-prev:before, .slick-next:before{
+    color: #a62525 !important;
+}
+
+.dishes{
+    font-size: 18px;
+    color: grey;
+    font-weight: 500;
+}
+
+.bannerImg{
+    cursor: pointer;
+}

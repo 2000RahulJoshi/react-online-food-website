@@ -1,0 +1,34 @@
+.sectionBtn{
+    border: none;
+    padding: 0.5rem 1.8rem;
+    border-radius: 22px;
+    font-weight: 500;
+    background-color: #ce1212;
+    color: white;
+}
+
+.home{
+    padding: 8rem 6rem 3rem 6rem;
+    background-color: #eee;
+}
+
+/* .section{
+    padding: 8rem 6rem 3rem 6rem;
+    background-color: #eee;
+} */
+
+.leftSection{
+    width: 48%;
+}
+
+.rightSection{
+    width: 40%;
+}
+
+.dishImg{
+    width: 100%;
+}
+
+.playBtn{
+    cursor: pointer;
+}

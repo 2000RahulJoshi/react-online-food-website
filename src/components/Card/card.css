@@ -1,0 +1,23 @@
+.menu{
+    padding: 8rem 6rem 3rem 6rem;
+}
+
+.menu p{
+    color: grey;
+    font-size: 18px;
+}
+
+.addItem{
+    background-color: rgb(220 53 69) !important;
+    color: white;
+    border-radius: 10px;
+}
+
+.card{
+    width: 30%;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
