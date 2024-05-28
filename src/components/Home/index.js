@@ -6,7 +6,7 @@ import Banner from '../Banner/banner';
 function Home() {
   return (
     <div className='home'>
-      {/* <Banner /> */}
+      <Banner />
       <HomeBody />
     </div>  
   )
