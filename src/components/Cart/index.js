@@ -21,9 +21,9 @@ const Cart = ()=> {
   const clearAllItems = () =>{
     dispatch(clearCart());
   }
-  totalAmount = totalAmount.toFixed(2)
+  totalAmount = parseInt(totalAmount.toFixed(2));
   return (
-    totalAmount === '0.00' ? <>
+    totalAmount === 0.00 ? <>
       <div className='cartItems gap-3 w-50 m-auto text-center'>
 
                   <h1>Your cart is Empty</h1>
