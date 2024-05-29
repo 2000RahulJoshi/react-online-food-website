@@ -12,27 +12,29 @@ function Banner() {
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 3,
+    autoplay: true,    
+    autoplaySpeed: 2000,       
   };
 
   return (
     <div className='banner mb-5'>
-    <Slider {...settings}>
-      {
-        images.map( (img)=>{
-          const path = img.path;
-          const dish = img.dishName;
-          return(
-            <div className='bannerImg d-flex flex-column align-items-center'>
-              <img src={path} width='120px' height='120px' alt={dish} />
-              <p className='mt-2 dishes'>{dish}</p>
-            </div>
-          )
-        })
-      }
-    </Slider>  
-    <hr/>
+      <Slider {...settings}>
+        {
+          images.map((img, index) => {
+            const path = img.path;
+            const dish = img.dishName;
+            return (
+              <div key={index} className='bannerImg d-flex flex-column align-items-center'>
+                <img src={path} width='120px' height='120px' alt={dish} />
+                <p className='mt-2 dishes'>{dish}</p>
+              </div>
+            );
+          })
+        }
+      </Slider>  
+      <hr/>
     </div>
-  )
+  );
 }
 
 export default Banner;

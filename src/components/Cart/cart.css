@@ -1,5 +1,5 @@
 .cartItems{
-    padding: 8rem 6rem 3rem 6rem;
+    padding: 8rem 6rem 1rem 6rem;
 }
 
 .leftDiv{
@@ -14,3 +14,16 @@
 .rightDiv{
     width: 80%;
 }
+
+.total{
+    padding: 0 6rem;
+}
+
+.cartItems button, .total button{
+    background : transparent;
+}
+
+.total button:hover{
+    color: red;
+}
+

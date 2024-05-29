@@ -1,8 +1,14 @@
 import React from 'react';
 import './nav.css'
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 function Index() {
+  // const dispatch = useDispatch();
+  // const dispatch = useDispatch()
+  // const cart = useSelector((state)=>state.cart.items);
+  const cart = useSelector((state)=>state.cart.items);
+  const cartLength = cart.length;
   return (
       <div className='navBar w-100 d-flex justify-content-between align-items-center py-4'>
         <div className='logo'>
@@ -32,9 +38,11 @@ function Index() {
         </div>
 
         <div>
-          <li>
-            <Link to="/cart">Cart</Link>
-          </li>
+          <div>
+            <div>
+              <Link to="/cart" className='fs-4 text-danger'><i class="bi bi-cart-check-fill text-danger"></i><sup>{cartLength}</sup></Link>
+            </div>
+          </div>
         </div>
       </div>
   )

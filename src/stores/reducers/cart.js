@@ -30,7 +30,7 @@ const cartReducer = (state = initialState, action) => {
             else{
                 updatedItems = [...items];
             }
-            const updatedTotalAmount = state.totalAmount + price;
+            let updatedTotalAmount = state.totalAmount + price;
             return {
                 ...state,
                 items: updatedItems,
@@ -51,7 +51,7 @@ const cartReducer = (state = initialState, action) => {
                 }
                 return true;
             })
-            const updatedTotalAmountAfterRemoval = state.totalAmount - removedItemPrice;
+            let updatedTotalAmountAfterRemoval = state.totalAmount - removedItemPrice;
             return {
                 ...state,
                 items: updatedItemsAfterRemoval,
