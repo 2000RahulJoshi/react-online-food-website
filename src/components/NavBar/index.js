@@ -32,7 +32,7 @@ function Index() {
                   <Link to="/events">Events</Link>
                 </li>
                 <li>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/booking">Booking</Link>
                 </li>
           </ul>
         </div>

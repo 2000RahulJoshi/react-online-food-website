@@ -1,0 +1,29 @@
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+.btn{
+    border: none;
+    padding: 0.5rem 1.8rem;
+    border-radius: 22px;
+    font-weight: 500;
+    background-color: #ce1212;
+    color: white;
+}

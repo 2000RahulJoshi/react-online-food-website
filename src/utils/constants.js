@@ -72,3 +72,37 @@ export const images = [
         price: 8.95
     }
 ];
+
+
+export const galleryImg = [
+    './images/gallery1.jpg',
+    './images/gallery2.jpg',
+    './images/gallery3.jpg',
+    './images/gallery4.jpg',
+    './images/gallery5.jpg',
+    './images/gallery6.jpg',
+    './images/gallery7.jpg',
+    './images/gallery8.jpg',
+    './images/gallery1.jpg',
+]
+
+export const chefs = [
+    {
+        path : './images/chefsOne.jpg',
+        fullName : 'Walter White',
+        role :  'Master Chef',
+        desc : 'Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.'
+    },
+    {
+        path : './images/chefsTwo.jpg',
+        fullName : 'Sarah Jhonson',
+        role :  'Patissier',
+        desc : 'Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.'
+    },
+    {
+        path : './images/chefsThree.jpg',
+        fullName : 'William Anderson',
+        role :  'Cook',
+        desc : 'Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.'
+    }
+]

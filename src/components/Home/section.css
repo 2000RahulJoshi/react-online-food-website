@@ -7,15 +7,16 @@
     color: white;
 }
 
+.sectionBtn a{
+    text-decoration: none;
+    color: white;
+}
+
 .home{
     padding: 8rem 6rem 3rem 6rem;
     background-color: #eee;
 }
 
-/* .section{
-    padding: 8rem 6rem 3rem 6rem;
-    background-color: #eee;
-} */
 
 .leftSection{
     width: 48%;
@@ -29,6 +30,22 @@
     width: 100%;
 }
 
+.chefImg{
+    width: 32%;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.galleryImg:hover{
+    transition: all 0.5s;
+    transform: scale(1.02);
+}
+
+
 .playBtn{
     cursor: pointer;
+}
+
+.colorGrey{
+    color: rgba(33, 37, 41, 0.7);
 }

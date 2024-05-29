@@ -3,6 +3,7 @@ import './cart.css';
 import { addToCart } from '../../stores/actions/cart';
 import { removeFromCart } from '../../stores/actions/cart';
 import { clearCart } from '../../stores/actions/cart';
+import { Link } from 'react-router-dom';
 
 const Cart = ()=> {
   const dispatch = useDispatch();
@@ -23,8 +24,12 @@ const Cart = ()=> {
   totalAmount = totalAmount.toFixed(2)
   return (
     totalAmount === '0.00' ? <>
-      <div className='cartItems d-flex flex-column gap-3 justify-content-center w-50 m-auto'>
+      <div className='cartItems gap-3 w-50 m-auto text-center'>
 
+                  <h1>Your cart is Empty</h1>
+                  <button className='cartMenuBtn mt-3'>
+                    <Link to='/menu'>Go to Menu</Link>
+                  </button>
       </div>
     </> :
     <>

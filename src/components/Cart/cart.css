@@ -27,3 +27,15 @@
     color: red;
 }
 
+.cartMenuBtn{
+    border: none;
+    padding: 0.5rem 1.8rem;
+    border-radius: 22px;
+    font-weight: 500;
+    background-color: #ce1212 !important;
+    color: white;
+}
+
+.cartMenuBtn a{
+    color: white;
+}
