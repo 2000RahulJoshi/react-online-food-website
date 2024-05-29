@@ -34,7 +34,7 @@ function BookTable() {
             </div>
             <div className="row">
               <div className="col-12 text-center">
-                <button type="submit" className="btn">Book Table</button>
+                <button className="bookTableBtn">Book Table</button>
               </div>
             </div>
           </form>

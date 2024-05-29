@@ -28,9 +28,7 @@ function Index() {
                 <li>
                   <Link to="/menu">Menu</Link>
                 </li>
-                <li>
-                  <Link to="/events">Events</Link>
-                </li>
+                
                 <li>
                   <Link to="/booking">Booking</Link>
                 </li>
